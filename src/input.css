@@ -36,6 +36,10 @@
     @apply relative font-semibold text-center text-white transition-all bg-primary-600 hover:bg-neutral-450 after:content-[''] after:inline-block after:w-5 after:h-5 after:bg-global-arrow after:absolute after:top-1/2 after:-translate-y-1/2 after:right-5;
   }
 
+  .section-paragraph {
+    @apply text-lg !leading-8;
+  }
+
   /* Header */
 
   .nav-link {

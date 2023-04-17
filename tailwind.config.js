@@ -7,7 +7,15 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
+        // Global
+
         "global-arrow": "url('../assets/images/global/arrow.svg')",
+
+        // Hero
+
+        "showcase-desktop": "url('../assets/images/hero/showcase_desktop.jpg')",
+        "showcase-tablet": "url('../assets/images/hero/showcase_tablet.jpg')",
+        "showcase-mobile": "url('../assets/images/hero/showcase_mobile.jpg')",
       },
       colors: {
         primary: {
@@ -26,8 +34,34 @@ module.exports = {
         "playfair-display": "'Playfair Display', serif",
         outfit: "'Outfit', sans-serif",
       },
+      fontSize: {
+        "2xs": "0.671875rem",
+      },
+      height: {
+        30: "7.5rem",
+        160: "40rem",
+      },
+      letterSpacing: {
+        heading: "0.025rem",
+        "hero-cta-text": "0.145rem",
+      },
+      lineHeight: {
+        4.5: "1.125rem",
+        15: "3.75rem",
+        24: "6rem",
+      },
       maxWidth: {
         "2xs": "5.5rem",
+        "3.5xl": "50rem",
+      },
+      rotate: {
+        14: "14deg",
+      },
+      spacing: {
+        15: "3.75rem",
+      },
+      width: {
+        30: "7.5rem",
       },
     },
   },

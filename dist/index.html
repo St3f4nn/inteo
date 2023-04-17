@@ -34,7 +34,7 @@
   </head>
   <body class="bg-white debug-screens font-outfit">
     <!-- Header -->
-    <header class="sticky top-0 left-0 right-0 py-5">
+    <header class="sticky top-0 left-0 right-0 z-50 py-5 bg-white">
       <div class="container flex items-center justify-between">
         <!-- Header logo -->
         <a href="#">
@@ -63,5 +63,64 @@
         </div>
       </div>
     </header>
+    <main>
+      <!-- Hero -->
+      <section>
+        <!-- Hero text content -->
+        <div class="container flex flex-col items-center py-20 text-center">
+          <h1
+            class="text-5xl font-medium leading-15 md:text-7xl md:leading-24 md:-tracking-heading"
+          >
+            Make <span class="italic">your home</span> an ode to joy
+          </h1>
+          <p class="mt-6 max-w-3.5xl section-paragraph md:text-xl">
+            We turn your empty house to a lovely home, making the compact spaces
+            with space saving furnitures. Making the unique tastes of yours into
+            reality!
+          </p>
+        </div>
+        <!-- Hero showcase image -->
+        <div
+          class="bg-center bg-no-repeat bg-cover h-160 bg-showcase-mobile sm:bg-showcase-tablet lg:bg-showcase-desktop"
+        >
+          <div class="container relative h-full">
+            <!-- Hero showcase image CTA button -->
+            <a
+              href="#"
+              class="absolute flex items-center justify-center transition-all -translate-x-1/2 border-4 border-white border-solid rounded-full left-1/2 lg:translate-x-0 lg:left-10 w-30 h-30 bg-neutral-750 -top-15 lg:-top-16 hover:scale-110"
+            >
+              <img
+                src="./assets/images/hero/cta_arrow.svg"
+                alt="Arrow icon"
+                class="relative z-20 w-8 h-8"
+              />
+              <svg
+                viewBox="0 0 100 100"
+                width="98.04px"
+                height="98.26px"
+                class="absolute z-10 text-2xs leading-4.5 font-medium -translate-x-1/2 -translate-y-1/2 rounded-full top-1/2 left-1/2 tracking-hero-cta-text rotate-14"
+                fill="white"
+              >
+                <defs>
+                  <path
+                    id="circle"
+                    d="
+                      M 50, 50
+                      m -37, 0
+                      a 37,37 0 1,1 74,0
+                      a 37,37 0 1,1 -74,0"
+                  />
+                </defs>
+                <text>
+                  <textPath xlink:href="#circle">
+                    GET IN TOUCH &bull; GET IN TOUCH &bull;
+                  </textPath>
+                </text>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
