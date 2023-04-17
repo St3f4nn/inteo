@@ -15,7 +15,7 @@
   h4,
   h5,
   h6 {
-    @apply font-playfair-display font-normal text-neutral-750;
+    @apply font-normal font-playfair-display text-neutral-750;
   }
 
   img {
@@ -23,12 +23,26 @@
   }
 
   p {
-    @apply text-neutral-650 font-light;
+    @apply font-light text-neutral-650;
   }
 
   /* Utilities */
 
   .container {
     @apply px-5 md:px-10;
+  }
+
+  .cta {
+    @apply relative font-semibold text-center text-white transition-all bg-primary-600 hover:bg-neutral-450 after:content-[''] after:inline-block after:w-5 after:h-5 after:bg-global-arrow after:absolute after:top-1/2 after:-translate-y-1/2 after:right-5;
+  }
+
+  /* Header */
+
+  .nav-link {
+    @apply text-sm font-medium leading-6 transition-all text-neutral-750 lg:text-neutral-650 hover:text-neutral-450;
+  }
+
+  .cta-header {
+    @apply text-xs py-3.5 pl-5 pr-11;
   }
 }

@@ -6,6 +6,9 @@ module.exports = {
       center: true,
     },
     extend: {
+      backgroundImage: {
+        "global-arrow": "url('../assets/images/global/arrow.svg')",
+      },
       colors: {
         primary: {
           50: "rgb(230, 216, 204)",
@@ -22,6 +25,9 @@ module.exports = {
       fontFamily: {
         "playfair-display": "'Playfair Display', serif",
         outfit: "'Outfit', sans-serif",
+      },
+      maxWidth: {
+        "2xs": "5.5rem",
       },
     },
   },

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -32,5 +32,36 @@
     <link rel="stylesheet" href="./css/output.css" />
     <title>Make Your Home An Ode To Joy | INTEO</title>
   </head>
-  <body class="debug-screens font-outfit"></body>
+  <body class="bg-white debug-screens font-outfit">
+    <!-- Header -->
+    <header class="sticky top-0 left-0 right-0 py-5">
+      <div class="container flex items-center justify-between">
+        <!-- Header logo -->
+        <a href="#">
+          <img
+            src="./assets/images/header/logo.svg"
+            alt="Inteo logo"
+            class="max-w-2xs"
+          />
+        </a>
+        <!-- Header navigation -->
+        <div class="sm:flex sm:items-center sm:gap-8">
+          <!-- Header navigation menu -->
+          <ul class="hidden sm:items-center sm:gap-12 sm:flex">
+            <li>
+              <a href="#about" class="nav-link">About</a>
+            </li>
+            <li>
+              <a href="#services" class="nav-link">Services</a>
+            </li>
+            <li>
+              <a href="#works" class="nav-link">Our Work</a>
+            </li>
+          </ul>
+          <!-- Header navigation CTA button -->
+          <a href="#" class="cta cta-header">CONTACT US</a>
+        </div>
+      </div>
+    </header>
+  </body>
 </html>
