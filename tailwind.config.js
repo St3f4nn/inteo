@@ -37,7 +37,15 @@ module.exports = {
       fontSize: {
         "2xs": "0.671875rem",
       },
+      gridTemplateColumns: {
+        "awards-container-desktop": "9.54fr 90.46fr",
+        "awards-container-tablet": "16.86fr 83.14fr",
+        "awards-container-mobile": "19.10fr 80.90fr",
+
+        awards: "21.98fr 21.32fr 18.21fr 20.38fr",
+      },
       height: {
+        0.25: "0.0625rem",
         30: "7.5rem",
         160: "40rem",
       },
@@ -51,14 +59,20 @@ module.exports = {
         24: "6rem",
       },
       maxWidth: {
-        "2xs": "5.5rem",
+        "3xs": "5.5rem",
         "3.5xl": "50rem",
       },
       rotate: {
         14: "14deg",
       },
       spacing: {
+        5.5: "1.375rem",
+        5.75: "1.4375rem",
+        7.5: "1.875rem",
+        9.5: "2.375rem",
+        13: "3.25rem",
         15: "3.75rem",
+        15.75: "3.9375rem",
       },
       width: {
         30: "7.5rem",
