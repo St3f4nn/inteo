@@ -954,16 +954,6 @@ p {
   background-color: rgb(44 44 44 / var(--tw-bg-opacity));
 }
 
-.bg-orange-600 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(234 88 12 / var(--tw-bg-opacity));
-}
-
-.bg-red-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(239 68 68 / var(--tw-bg-opacity));
-}
-
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
@@ -1009,56 +999,8 @@ p {
   padding-left: 1.25rem;
 }
 
-.pr-14 {
-  padding-right: 3.5rem;
-}
-
-.pr-14\.5 {
-  padding-right: 3.625rem;
-}
-
-.pr-4 {
-  padding-right: 1rem;
-}
-
-.pr-4\.5 {
-  padding-right: 1.125rem;
-}
-
-.pr-6 {
-  padding-right: 1.5rem;
-}
-
-.pr-6\.25 {
-  padding-right: 1.5625rem;
-}
-
-.pr-8 {
-  padding-right: 2rem;
-}
-
-.pr-8\.75 {
-  padding-right: 2.1875rem;
-}
-
-.pr-10 {
-  padding-right: 2.5rem;
-}
-
-.pr-7 {
-  padding-right: 1.75rem;
-}
-
-.pr-5 {
-  padding-right: 1.25rem;
-}
-
 .pr-3 {
   padding-right: 0.75rem;
-}
-
-.pr-2 {
-  padding-right: 0.5rem;
 }
 
 .text-center {
@@ -1255,10 +1197,6 @@ p {
 
   .lg\:grid-cols-awards-container-desktop {
     grid-template-columns: 9.54fr 90.46fr;
-  }
-
-  .lg\:gap-0 {
-    gap: 0px;
   }
 
   .lg\:bg-showcase-desktop {
