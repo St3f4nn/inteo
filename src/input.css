@@ -81,4 +81,18 @@
   .metric-description {
     @apply text-sm font-outfit tracking-metrics-description mt-3.5 md:mt-0 lg:mt-5;
   }
+
+  /* Services */
+
+  .services-card {
+    @apply p-8 border border-solid border-primary-50 md:p-10;
+  }
+
+  .services-card-icon {
+    @apply object-cover w-12 h-12;
+  }
+
+  .services-card-heading {
+    @apply mt-6 text-3xl leading-10 md:text-4xl md:leading-12 md:mt-20;
+  }
 }
