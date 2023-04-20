@@ -65,8 +65,11 @@ module.exports = {
       letterSpacing: {
         "pre-heading": "0.1rem",
         heading: "0.025rem",
+
         "hero-cta-text": "0.145rem",
         "badge-text": "0.08rem",
+
+        "metrics-description": "0.05rem",
       },
       lineHeight: {
         4.5: "1.125rem",

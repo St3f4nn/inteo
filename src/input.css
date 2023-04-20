@@ -41,7 +41,7 @@
   }
 
   .section-heading {
-    @apply mt-6 text-4xl font-normal leading-12 md:text-6xl md:leading-18 md:tracking-heading;
+    @apply mt-6 text-4xl leading-12 md:text-6xl md:leading-18 md:-tracking-heading;
   }
 
   .section-paragraph {
@@ -66,5 +66,19 @@
 
   .award-text {
     @apply text-sm font-normal leading-6 text-neutral-250 font-outfit;
+  }
+
+  /* Metrics */
+
+  .metric {
+    @apply flex flex-row items-center gap-4 md:items-start lg:items-center md:gap-2 lg:gap-4 md:flex-col lg:flex-row;
+  }
+
+  .metric-number {
+    @apply text-5xl leading-15 md:text-6xl md:leading-18 md:-tracking-heading;
+  }
+
+  .metric-description {
+    @apply text-sm font-outfit tracking-metrics-description mt-3.5 md:mt-0 lg:mt-5;
   }
 }
