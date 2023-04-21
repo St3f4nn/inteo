@@ -687,6 +687,44 @@ p {
   }
 }
 
+/* Works */
+
+.works-image {
+  height: 15.6875rem;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media (min-width: 768px) {
+  .works-image {
+    height: 32.25rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .works-image {
+    height: 22.5rem;
+  }
+}
+
+#main-works-heading {
+  margin-top: 1.5rem;
+}
+
+.works-heading {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+@media (min-width: 768px) {
+  .works-heading {
+    font-size: 2.25rem;
+    line-height: 3rem;
+  }
+}
+
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -934,6 +972,10 @@ p {
   z-index: 50;
 }
 
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
 .mt-11 {
   margin-top: 2.75rem;
 }
@@ -944,6 +986,10 @@ p {
 
 .mt-12 {
   margin-top: 3rem;
+}
+
+.mt-24 {
+  margin-top: 6rem;
 }
 
 .mt-4 {
@@ -960,10 +1006,6 @@ p {
 
 .mt-6 {
   margin-top: 1.5rem;
-}
-
-.mt-10 {
-  margin-top: 2.5rem;
 }
 
 .flex {
@@ -1085,10 +1127,6 @@ p {
   grid-template-columns: 19.10fr 80.90fr;
 }
 
-.grid-cols-3 {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-}
-
 .flex-col {
   flex-direction: column;
 }
@@ -1107,6 +1145,10 @@ p {
 
 .justify-between {
   justify-content: space-between;
+}
+
+.gap-10 {
+  gap: 2.5rem;
 }
 
 .gap-2 {
@@ -1181,6 +1223,18 @@ p {
   background-image: url('../assets/images/hero/showcase_mobile.jpg');
 }
 
+.bg-works-1-mobile {
+  background-image: url('../assets/images/works/dining_room_1_mobile.jpg');
+}
+
+.bg-works-2-mobile {
+  background-image: url('../assets/images/works/dining_room_2_mobile.jpg');
+}
+
+.bg-works-3-mobile {
+  background-image: url('../assets/images/works/swimming_pool_mobile.jpg');
+}
+
 .bg-cover {
   background-size: cover;
 }
@@ -1218,6 +1272,11 @@ p {
   padding-bottom: 5rem;
 }
 
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
@@ -1234,6 +1293,14 @@ p {
 
 .pl-5 {
   padding-left: 1.25rem;
+}
+
+.pl-6 {
+  padding-left: 1.5rem;
+}
+
+.pr-12 {
+  padding-right: 3rem;
 }
 
 .pr-3 {
@@ -1267,6 +1334,11 @@ p {
   line-height: 1.5rem;
 }
 
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
@@ -1294,6 +1366,10 @@ p {
 
 .leading-4\.5 {
   line-height: 1.125rem;
+}
+
+.leading-6 {
+  line-height: 1.5rem;
 }
 
 .tracking-badge-text {
@@ -1375,12 +1451,12 @@ p {
     margin-top: 0px;
   }
 
-  .md\:mt-23\.25 {
-    margin-top: 5.8125rem;
-  }
-
   .md\:mt-20 {
     margin-top: 5rem;
+  }
+
+  .md\:mt-23\.25 {
+    margin-top: 5.8125rem;
   }
 
   .md\:h-139\.5 {
@@ -1397,6 +1473,10 @@ p {
 
   .md\:items-center {
     align-items: center;
+  }
+
+  .md\:gap-20 {
+    gap: 5rem;
   }
 
   .md\:gap-28 {
@@ -1426,6 +1506,18 @@ p {
 
   .md\:bg-about-2-tablet {
     background-image: url('../assets/images/about/bedroom_tablet.jpg');
+  }
+
+  .md\:bg-works-1-tablet {
+    background-image: url('../assets/images/works/dining_room_1_tablet.jpg');
+  }
+
+  .md\:bg-works-2-tablet {
+    background-image: url('../assets/images/works/dining_room_2_tablet.jpg');
+  }
+
+  .md\:bg-works-3-tablet {
+    background-image: url('../assets/images/works/swimming_pool_tablet.jpg');
   }
 
   .md\:px-2 {
@@ -1515,6 +1607,22 @@ p {
     margin-top: 5rem;
   }
 
+  .lg\:mt-24 {
+    margin-top: 6rem;
+  }
+
+  .lg\:inline-block {
+    display: inline-block;
+  }
+
+  .lg\:hidden {
+    display: none;
+  }
+
+  .lg\:h-111 {
+    height: 27.75rem;
+  }
+
   .lg\:h-120 {
     height: 30rem;
   }
@@ -1528,16 +1636,16 @@ p {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .lg\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
   .lg\:grid-cols-awards {
     grid-template-columns: 21.98fr 21.32fr 18.21fr 20.38fr;
   }
 
   .lg\:grid-cols-awards-container-desktop {
     grid-template-columns: 9.54fr 90.46fr;
-  }
-
-  .lg\:grid-cols-3 {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .lg\:gap-4 {
@@ -1558,6 +1666,23 @@ p {
 
   .lg\:bg-hero-desktop {
     background-image: url('../assets/images/hero/showcase_desktop.jpg');
+  }
+
+  .lg\:bg-works-1-desktop {
+    background-image: url('../assets/images/works/dining_room_1_desktop.jpg');
+  }
+
+  .lg\:bg-works-2-desktop {
+    background-image: url('../assets/images/works/dining_room_2_desktop.jpg');
+  }
+
+  .lg\:bg-works-3-desktop {
+    background-image: url('../assets/images/works/swimming_pool_desktop.jpg');
+  }
+
+  .lg\:px-14 {
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
   }
 
   .lg\:px-2 {
@@ -1592,5 +1717,10 @@ p {
 @media (min-width: 1280px) {
   .xl\:gap-16 {
     gap: 4rem;
+  }
+
+  .xl\:px-14 {
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
   }
 }

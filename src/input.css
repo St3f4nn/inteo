@@ -95,4 +95,18 @@
   .services-card-heading {
     @apply mt-6 text-3xl leading-10 md:text-4xl md:leading-12 md:mt-20;
   }
+
+  /* Works */
+
+  .works-image {
+    @apply bg-center bg-no-repeat bg-cover h-62.75 md:h-129 lg:h-90;
+  }
+
+  #main-works-heading {
+    @apply mt-6;
+  }
+
+  .works-heading {
+    @apply mt-4 text-2xl md:text-4xl md:leading-12;
+  }
 }

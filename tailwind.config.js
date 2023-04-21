@@ -26,6 +26,29 @@ module.exports = {
         "about-2-desktop": "url('../assets/images/about/bedroom_desktop.jpg')",
         "about-2-tablet": "url('../assets/images/about/bedroom_tablet.jpg')",
         "about-2-mobile": "url('../assets/images/about/bedroom_mobile.jpg')",
+
+        // Works
+
+        "works-1-desktop":
+          "url('../assets/images/works/dining_room_1_desktop.jpg')",
+        "works-1-tablet":
+          "url('../assets/images/works/dining_room_1_tablet.jpg')",
+        "works-1-mobile":
+          "url('../assets/images/works/dining_room_1_mobile.jpg')",
+
+        "works-2-desktop":
+          "url('../assets/images/works/dining_room_2_desktop.jpg')",
+        "works-2-tablet":
+          "url('../assets/images/works/dining_room_2_tablet.jpg')",
+        "works-2-mobile":
+          "url('../assets/images/works/dining_room_2_mobile.jpg')",
+
+        "works-3-desktop":
+          "url('../assets/images/works/swimming_pool_desktop.jpg')",
+        "works-3-tablet":
+          "url('../assets/images/works/swimming_pool_tablet.jpg')",
+        "works-3-mobile":
+          "url('../assets/images/works/swimming_pool_mobile.jpg')",
       },
       colors: {
         primary: {
@@ -57,9 +80,13 @@ module.exports = {
       height: {
         0.25: "0.0625rem",
         30: "7.5rem",
+        62.75: "15.6875rem",
         67.9275: "16.981875rem",
-        139.5: "34.875rem",
+        90: "22.5rem",
+        111: "27.75rem",
         120: "30rem",
+        129: "32.25rem",
+        139.5: "34.875rem",
         160: "40rem",
       },
       letterSpacing: {
