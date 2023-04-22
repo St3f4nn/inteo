@@ -53,7 +53,6 @@ module.exports = {
       colors: {
         primary: {
           50: "rgb(230, 216, 204)",
-          300: "rgb(196, 163, 134)",
           600: "rgb(153, 104, 48)",
         },
         neutral: {
@@ -107,6 +106,9 @@ module.exports = {
       },
       maxWidth: {
         "3xs": "5.5rem",
+        "2.9xs": "17rem",
+        "2xs": "17.5rem",
+        "1.5xl": "37rem",
         "3.5xl": "50rem",
       },
       rotate: {
@@ -132,13 +134,15 @@ module.exports = {
         23.25: "5.8125rem",
         69.25: "17.3125rem",
       },
+      textUnderlineOffset: {
+        5: "5px",
+      },
       width: {
         30: "7.5rem",
       },
     },
   },
   plugins: [
-    require("tailwindcss-debug-screens"),
     function ({ addComponents }) {
       addComponents({
         ".container": {

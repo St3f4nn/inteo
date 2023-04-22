@@ -109,4 +109,10 @@
   .works-heading {
     @apply mt-4 text-2xl md:text-4xl md:leading-12;
   }
+
+  /* Footer */
+
+  .social-link {
+    @apply flex items-center justify-center w-10 h-10 transition-all border border-solid rounded-full border-primary-50 hover:bg-primary-600 hover:border-primary-600;
+  }
 }
